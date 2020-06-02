@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D37E044-CEFF-4624-AF81-5BC0ED80161E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRF</RootNamespace>
+    <AssemblyName>CRF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvUtils">
+      <HintPath>CRF\Lib\AdvUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRF\CRF_core\base\BaseModel.cs" />
+    <Compile Include="CRF\CRF_core\base\IGenerateFeature.cs" />
+    <Compile Include="CRF\CRF_core\base\Node.cs" />
+    <Compile Include="CRF\CRF_core\base\Path.cs" />
+    <Compile Include="CRF\CRF_core\base\Tagger.cs" />
+    <Compile Include="CRF\CRF_core\base\Utils.cs" />
+    <Compile Include="CRF\CRF_core\decoder\DecoderTagger.cs" />
+    <Compile Include="CRF\CRF_core\decoder\ModelReader.cs" />
+    <Compile Include="CRF\CRF_core\encoder\CRFEncoderThread.cs" />
+    <Compile Include="CRF\CRF_core\encoder\DefaultFeatureLexicalDict.cs" />
+    <Compile Include="CRF\CRF_core\encoder\EncoderTagger.cs" />
+    <Compile Include="CRF\CRF_core\encoder\FeatureIdPair.cs" />
+    <Compile Include="CRF\CRF_core\encoder\FeatureItem.cs" />
+    <Compile Include="CRF\CRF_core\encoder\HugeFeatureLexicalDict.cs" />
+    <Compile Include="CRF\CRF_core\encoder\IFeatureLexicalDict.cs" />
+    <Compile Include="CRF\CRF_core\encoder\LBFGS.cs" />
+    <Compile Include="CRF\CRF_core\encoder\Mcsrch.cs" />
+    <Compile Include="CRF\CRF_core\encoder\ModelWritter.cs" />
+    <Compile Include="CRF\CRF_core\encoder\OrderableListPartitioner.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\Args.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\CRFSharpHelper.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\Decoder.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\Encoder.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\SegDecoderTagger.cs" />
+    <Compile Include="CRF\CRF_core\wrapper\Shrink.cs" />
+    <Compile Include="CRF\CRF_interface\DecoderConsole.cs" />
+    <Compile Include="CRF\CRF_interface\EncoderConsole.cs" />
+    <Compile Include="CRF\CRF_interface\ShrinkConsole.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExampleData\template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExampleData\test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ExampleData\training.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

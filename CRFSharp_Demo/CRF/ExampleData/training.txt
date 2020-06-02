@@ -1,0 +1,204 @@
+大家	Nh	大	家	X	X	2	專家	大家	human|人	OTHER
+都	D	都	都	X	X	1	都	都	capital|國都	OTHER
+知道	VK	知	道	X	X	2	了解	知道	know|知道	OTHER
+桃源街	Na	桃	街	桃源	源街	3	X	桃源街	X	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+牛肉麵	Na	牛	麵	牛肉	肉麵	3	X	牛肉麵	edible|食物	OTHER
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+有名	VH	有	名	X	X	2	著名	有名	famous|著名	OPWORD
+
+如果	Cbb	如	果	X	X	2	如果	如果	hypothesis={}	OTHER
+不	D	不	不	X	X	1	不	X	not({event|事件})	OTHER
+特別	VH	特	別	X	X	2	非常	特別	special|特別	OPWORD
+小修	Nb	小	修	X	X	2	X	小修	X	OTHER
+也	D	也	也	X	X	1	嗎	也	particle={}	OTHER
+不會	D	不	會	X	X	2	決不會	會	impossibility={extreme|極}	OTHER
+特別	VH	特	別	X	X	2	非常	特別	special|特別	OPWORD
+寫	VC	寫	寫	X	X	1	寫作	寫	write|寫	OTHER
+食	Na	食	食	X	X	1	吃	食	edible|食物	OTHER
+記	VC	記	記	X	X	1	記號	記	remember|記得	OTHER
+了	Di	了	了	X	X	1	結束	了	aspect={Vachieve|達成}	OTHER
+
+所以	Cbb	所	以	X	X	2	所以	所以	result={}	OTHER
+人	Na	人	人	X	X	1	人格	人	human|人	OTHER
+顯	VK	顯	顯	X	X	1	明顯	顯	display|展示	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+超少	VH	超	少	X	X	2	X	少	X	OPWORD
+
+老	VH	老	老	X	X	1	非常	老	tough|韌	OTHER
+熊	Na	熊	熊	X	X	1	責備	熊	beast|走獸	OTHER
+說	VE	說	說	X	X	1	講話	說	thinking|思想	OTHER
+平時	Nd	平	時	X	X	2	平時	平時	habitual|習慣性	OTHER
+用餐	Nv	用	餐	X	X	2	用餐	用餐	eat|吃	OTHER
+時間	Na	時	間	X	X	2	時間	時間	time|時間	OTHER
+要	D	要	要	X	X	1	重要	要	possibility={extreme|極}	OTHER
+找	VC	找	找	X	X	1	尋找	找	return|還	OTHER
+個	Nf	個	個	X	X	1	各	個	attitude({speaker|說話者})={emphasize|著重}	OTHER
+位置	Na	位	置	X	X	2	職位	位置	place|地方	OTHER
+都	D	都	都	X	X	1	都	都	capital|國都	OTHER
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+難	VH	難	難	X	X	1	困難	難	difficult|難	OPWORD
+.	PERIODCATEGORY	.	.	X	X	1	X	.	X	OTHER
+
+一	Neu	一	一	X	X	1	全部	一	quantity={1}	OTHER
+碗	Nf	碗	碗	X	X	1	X	碗	tool|用具	OTHER
+7	Neu	7	7	X	X	1	X	7	X	OTHER
+-	DASHCATEGORY	-	-	X	X	1	X	-	X	OTHER
+8	Neu	8	8	X	X	1	X	8	X	OTHER
+顆	Nf	顆	顆	X	X	1	顆	顆	NounUnit|名量	OTHER
+只	Da	只	只	X	X	1	只	只	NounUnit|名量	OTHER
+能	D	能	能	X	X	1	能干	能	strength({physical|物質})	OTHER
+說	VE	說	說	X	X	1	講話	說	thinking|思想	OTHER
+是	SHI	是	是	X	X	1	正確	是	be|是	OTHER
+料	Na	料	料	X	X	1	預料	料	material|材料	OTHER
+好	VH	好	好	X	X	1	好	X	aspect={Vachieve|達成}	OPWORD
+又	D	又	又	X	X	1	再	又	addition={}	OTHER
+實在	D	實	在	X	X	2	真實	實在	true|真	OPWORD
+
+好吃	VH	好	吃	X	X	2	可口	吃	GoodTaste|好吃	OTHER
+是	SHI	是	是	X	X	1	正確	是	be|是	OTHER
+好吃	VH	好	吃	X	X	2	可口	吃	GoodTaste|好吃	OPWORD
+
+不過	Cbb	不	過	X	X	2	只	X	incapacity={ish|稍}	OTHER
+感覺	Na	感	覺	X	X	2	感到	感覺	perception|感知	OTHER
+不	D	不	不	X	X	1	不	X	not({event|事件})	OTHER
+到	VC	到	到	X	X	1	全面	到	aspect={Vachieve|達成}	OTHER
+有	V_2	有	有	X	X	1	有	有	exist|存在	OTHER
+什麼	Nep	什	麼	X	X	2	怎樣	什麼	formal={Ques()}	OTHER
+特別	VH	特	別	X	X	2	非常	特別	special|特別	OPWORD
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+
+跟上	VC	跟	上	X	X	2	X	跟上	chase|追趕	OTHER
+回	VCL	回	回	X	X	1	答	回	NounUnit|名量	OTHER
+在	P	在	在	X	X	1	位於	在	TimePoint={}	OTHER
+喜	VK	喜	喜	X	X	1	高興	喜	joyful|喜悅	OTHER
+來	D	來	來	X	X	1	做	來	do|做	OTHER
+登	VCL	登	登	X	X	1	登載	登	climb|攀登	OTHER
+附近	Nc	附	近	X	X	2	附近	附近	near|近	OTHER
+吃到	VC	吃	到	X	X	2	X	吃到	eat|吃	OTHER
+三	Neu	三	三	X	X	1	第三	三	quantity={3}	OTHER
+顆	Nf	顆	顆	X	X	1	顆	顆	NounUnit|名量	OTHER
+就	D	就	就	X	X	1	完成	就	attitude({speaker|說話者})={predict|預料	OTHER
+要	D	要	要	X	X	1	重要	要	possibility={extreme|極}	OTHER
+50	Neu	5	0	X	X	2	X	50	X	OTHER
+元	Nf	元	元	X	X	1	第一	元	dynasty|朝代	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+餛飩	Na	餛	飩	X	X	2	餛飩	餛飩	food|食品	OTHER
+真的	D	真	的	X	X	2	實在	真的	true|真	OTHER
+好	Dfa	好	好	X	X	1	好	X	degree={extreme|極}	OPWORD
+太多	VH	太	多	X	X	2	X	多	many|多	OTHER
+了	T	了	了	X	X	1	結束	了	finish|完畢	OTHER
+.	PERIODCATEGORY	.	.	X	X	1	X	.	X	OTHER
+
+麻醬	Na	麻	醬	X	X	2	芝麻醬	麻醬	material|材料	OTHER
+濃濃	VH	濃	濃	X	X	2	濃	濃濃	dense|密	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+香味	Na	香	味	X	X	2	香	香味	odor({physical|物質})	OTHER
+在	P	在	在	X	X	1	位於	在	TimePoint={}	OTHER
+嘴	Na	嘴	嘴	X	X	1	端	嘴	mouth|口	OTHER
+裡	Ncd	裡	裡	X	X	1	家鄉	裡	internal({object|物體})	OTHER
+濃	VH	濃	濃	X	X	1	醇厚	濃	dense|密	OPWORD
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+化	VH	化	化	X	X	1	融化	化	knowledge|知識	OTHER
+不	D	不	不	X	X	1	不	X	not({event|事件})	OTHER
+開	VC	開	開	X	X	1	開始	開	start|開始	OTHER
+
+唯一	A	唯	一	X	X	2	唯一	唯一	only|僅	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+小	VH	小	小	X	X	1	兒童	小	noncritical|輕微	OTHER
+遺憾	VK	遺	憾	X	X	2	不滿	遺憾	sorry|惋惜	OTHER
+是	SHI	是	是	X	X	1	正確	是	be|是	OTHER
+吃到	VC	吃	到	X	X	2	X	吃到	eat|吃	OTHER
+碗	Na	碗	碗	X	X	1	X	碗	tool|用具	OTHER
+底	Ng	底	底	X	X	1	末期	底	TimeFeature={ending|末}	OTHER
+太	Dfa	太	太	X	X	1	最	X	degree={very|很}	OTHER
+油	VH	油	油	X	X	1	脂肪	油	PoorTaste|難吃	OPWORD
+
+而且	Cbb	而	且	X	X	2	並且	而且	addition={}	OTHER
+湯	Na	湯	湯	X	X	1	開水	湯	water|水	OTHER
+跟	P	跟	跟	X	X	1	跟隨	跟	hind({physical|物質})	OTHER
+麵	Na	麵	麵	X	X	1	X	麵	food|食品	OTHER
+都	D	都	都	X	X	1	都	都	capital|國都	OTHER
+超大	VH	超	大	X	X	2	大而無當	大	X	OPWORD
+碗	Na	碗	碗	X	X	1	X	碗	tool|用具	OTHER
+的	T	的	的	X	X	1	確實	的	tool|用具	OTHER
+.	PERIODCATEGORY	.	.	X	X	1	X	.	X	OTHER
+
+炸醬麵	Na	炸	麵	炸醬	醬麵	3	X	炸醬麵	food|食品	OTHER
+NT	FW	N	T	X	X	2	X	NT	X	OTHER
+.	PERIODCATEGORY	.	.	X	X	1	X	.	X	OTHER
+50	Neu	5	0	X	X	2	X	50	X	OTHER
+)	PARENTHESISCATEGORY	)	)	X	X	1	X	)	X	OTHER
+就	D	就	就	X	X	1	完成	就	attitude({speaker|說話者})={predict|預料	OTHER
+遜色	VH	遜	色	X	X	2	不及	遜色	inferior|不如	OPWORD
+許多	Neqa	許	多	X	X	2	多	許多	quantity={many|多}	OTHER
+
+榨菜	Na	榨	菜	X	X	2	X	榨菜	-	OTHER
+湯頭	Na	湯	頭	X	X	2	X	湯頭	food|食品	OTHER
+讓	VL	讓	讓	X	X	1	被	讓	sell|賣	OTHER
+清湯	Na	清	湯	X	X	2	X	清湯	-	OTHER
+酸酸甜甜	VH	酸	甜	酸酸	甜甜	4	X	酸酸甜甜	X	OPWORD
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+
+寫	VC	寫	寫	X	X	1	寫作	寫	write|寫	OTHER
+得	DE	得	得	X	X	1	完成	得	relation()	OTHER
+相當	Dfa	相	當	X	X	2	恰當	相當	degree={very|很}	OTHER
+詳細	VH	詳	細	X	X	2	詳細	詳細	detailed|詳	OPWORD
+
+尤其	D	尤	其	X	X	2	更加	尤其	special|特別	OTHER
+是	SHI	是	是	X	X	1	正確	是	be|是	OTHER
+新	VH	新	新	X	X	1	新	新	TimePoint={recent|新近}	OTHER
+口味	Na	口	味	X	X	2	意氣	口味	taste({physical|物質})	OTHER
+「	PARENTHESISCATEGORY	「	「	X	X	1	X	「	X	OTHER
+櫻葉酥	Na	櫻	酥	櫻葉	葉酥	3	X	櫻葉酥	X	OTHER
+」	PARENTHESISCATEGORY	」	」	X	X	1	X	」	X	OTHER
+看起來	D	看	來	看起	起來	3	看起來	看起來	possibility={ish|稍}	OTHER
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+棒	VH	棒	棒	X	X	1	到家	棒	-	OPWORD
+
+又	D	又	又	X	X	1	再	又	addition={}	OTHER
+強調	VE	強	調	X	X	2	重視	強調	emphasize|著重	OTHER
+低	VH	低	低	X	X	1	低賤	低	low|低	OPWORD
+熱量	Na	熱	量	X	X	2	熱能	熱量	heat({physical|物質})	OTHER
+
+可愛	VH	可	愛	X	X	2	可愛	可愛	attractive|誘人	OPWORD
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+手提袋	Na	手	袋	手提	提袋	3	提包	手提袋	tool|用具	OTHER
+
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+棒	VH	棒	棒	X	X	1	到家	棒	-	OPWORD
+
+大家	Nh	大	家	X	X	2	專家	大家	human|人	OTHER
+都	D	都	都	X	X	1	都	都	capital|國都	OTHER
+說	VE	說	說	X	X	1	講話	說	thinking|思想	OTHER
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+可愛	VH	可	愛	X	X	2	可愛	可愛	attractive|誘人	OPWORD
+~	FW	~	~	X	X	1	X	~	X	OTHER
+
+吃起來	D	吃	來	吃起	起來	3	X	吃起來	start|開始	OTHER
+有	V_2	有	有	X	X	1	有	有	exist|存在	OTHER
+特殊	VH	特	殊	X	X	2	異常	特殊	special|特別	OPWORD
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+香味	Na	香	味	X	X	2	香	香味	odor({physical|物質})	OTHER
+
+櫻	Na	櫻	櫻	X	X	1	櫻桃	櫻	FlowerGrass|花草	OTHER
+葉酥	Nb	葉	酥	X	X	2	X	葉酥	X	OTHER
+真	D	真	真	X	X	1	真實	真	true|真	OTHER
+是	SHI	是	是	X	X	1	正確	是	be|是	OTHER
+好	Dfa	好	好	X	X	1	好	X	degree={extreme|極}	OTHER
+好吃	VH	好	吃	X	X	2	可口	吃	GoodTaste|好吃	OPWORD
+
+口味	Na	口	味	X	X	2	意氣	口味	taste({physical|物質})	OTHER
+特殊	VH	特	殊	X	X	2	異常	特殊	special|特別	OTHER
+創新	VC	創	新	X	X	2	更新	創新	MakeBetter|優化	OPWORD
+
+搭配	VC	搭	配	X	X	2	陪襯	搭配	include|納入	OTHER
+的	DE	的	的	X	X	1	確實	的	relation()	OTHER
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}	OTHER
+棒	VH	棒	棒	X	X	1	到家	棒	-	OPWORD
+
+白	VH	白	白	X	X	1	徒勞	白	text|語文	OTHER
+豆沙	Na	豆	沙	X	X	2	X	豆沙	edible|食物	OTHER
+不會	D	不	會	X	X	2	決不會	會	impossibility={extreme|極}	OTHER
+過	Dfa	過	過	X	X	1	過失	X	degree={more|較}	OTHER
+甜	VH	甜	甜	X	X	1	甜	甜	euphonious|好聽	OPWORD

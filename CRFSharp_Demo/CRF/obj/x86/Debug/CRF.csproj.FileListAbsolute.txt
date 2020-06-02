@@ -1,0 +1,11 @@
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\ExampleData\test.txt
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\ExampleData\training.txt
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\ExampleData\template
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\CRF.exe
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\CRF.pdb
+C:\Users\yuyanlo\Desktop\CRF\CRF\bin\Debug\AdvUtils.dll
+C:\Users\yuyanlo\Desktop\CRF\CRF\obj\x86\Debug\CRF.csprojResolveAssemblyReference.cache
+C:\Users\yuyanlo\Desktop\CRF\CRF\obj\x86\Debug\CRF.exe
+C:\Users\yuyanlo\Desktop\CRF\CRF\obj\x86\Debug\CRF.pdb
+D:\C#\CRF\CRF\obj\x86\Debug\CRF.exe
+D:\C#\CRF\CRF\obj\x86\Debug\CRF.pdb

@@ -1,0 +1,6 @@
+食物	Na	食	物	X	X	2	食物	食物	edible|食物
+也	D	也	也	X	X	1	嗎	也	particle={}
+很	Dfa	很	很	X	X	1	非常	X	degree={very|很}
+好吃	VH	好	吃	X	X	2	可口	吃	GoodTaste|好吃
+！	EXCLANATIONCATEGORY	！	！	X	X	1	X	！	X
+
