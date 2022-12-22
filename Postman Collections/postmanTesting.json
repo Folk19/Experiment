@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "allowedActions Copy",
-			"_postman_id": "9bebea76-76b3-4860-abe3-132a3697cfe0",
+			"id": "9bebea76-76b3-4860-abe3-132a3697cfe0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -59,6 +59,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ab053489-af0b-43a3-9aa8-7edfc9fb024c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
