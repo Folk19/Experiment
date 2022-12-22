@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "7dfb589c-ff0a-4044-8337-ae8990e345f0",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "allowedActions Copy",
+			"_postman_id": "9bebea76-76b3-4860-abe3-132a3697cfe0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"clientSecret": "starhub-shop",
+						"clientId": "starhub-shop-int",
+						"grant_type": "client_credentials",
+						"accessTokenUrl": "https://auth.compax-dev.starhubsg.sh.inc/auth-server/oauth/token",
+						"password": "{{Password}}",
+						"username": "{{Username}}",
+						"tokenName": "{{Token Name}}",
+						"tokenType": "bearer",
+						"redirect_uri": "http://127.0.0.1:8980/frontend-api-v2/swagger-ui/oauth2-redirect.html",
+						"authUrl": "http://127.0.0.1:9090/auth-server/oauth/authorize",
+						"client_authentication": "body",
+						"headerPrefix": "Bearer",
+						"useBrowser": false,
+						"code_verifier": "",
+						"scope": "all",
+						"challengeAlgorithm": "S256",
+						"state": "",
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{Frontend API}}/allowedActions/v2/?entity=6&id={{serviceId}}",
+					"protocol": "https",
+					"host": [
+						"{{Frontend API}}"
+					],
+					"path": [
+						"allowedActions",
+						"v2",
+						""
+					],
+					"query": [
+						{
+							"key": "entity",
+							"value": "6"
+						},
+						{
+							"key": "id",
+							"value": "{{serviceId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
